@@ -22,8 +22,6 @@ import SignText from '../signspeaak/screens/SignText'; // Ruta correcta
 import TexttoSign from '../signspeaak/screens/TexttoSign'
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-
-
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -53,4 +51,4 @@ export default function App() {
       </ThemeProvider>
     </GestureHandlerRootView>
   );
-}
+};
