@@ -21,6 +21,9 @@ import EditarPerfil from '../signspeaak/screens/EditarPerfil';
 import SignText from '../signspeaak/screens/SignText'; // Ruta correcta
 import TexttoSign from '../signspeaak/screens/TexttoSign'
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const Stack = createStackNavigator();
 
